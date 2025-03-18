@@ -1,11 +1,14 @@
 import Navbar from "./components/NavBar";
+import Scramble from "./components/Scarmble";
+import Timer from "./components/Timer";
 
 function App() {
   return (
     <div>
       <Navbar />
       <main className="p-4 text-center">
-        <h2 className="text-xl">Scramble and Timer will go here!</h2>
+        <Scramble />
+        <Timer/>
       </main>
     </div>
   );
